@@ -41,7 +41,7 @@ let package = Package(
 
 #if os(Linux)
 package.dependencies = [
-    .package(url: "https://github.com/stephencelis/CSQLite.git", from: "0.0.3")
+    .package(url: "https://github.com/altugnuriaslantas/CSQLite.git", from: "0.0.3")
 ]
 package.targets.first?.dependencies += [
     .product(name: "CSQLite", package: "CSQLite")
